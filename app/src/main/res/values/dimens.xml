@@ -4,6 +4,7 @@
     <!-- dp -->
     <dimen name="dp_1">10dp</dimen>
     <dimen name="dp_2">20dp</dimen>
+    <dimen name="dp_progressbar">36dp</dimen>
 
     <!-- sp -->
     <dimen name="sp_1">15dp</dimen>

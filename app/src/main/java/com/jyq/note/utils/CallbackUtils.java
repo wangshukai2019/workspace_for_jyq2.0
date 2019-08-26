@@ -2,7 +2,7 @@ package com.jyq.note.utils;
 
 import android.content.Intent;
 
-import com.jyq.note.https.Responses.BaseRet;
+import com.jyq.note.https.responses.BaseRet;
 
 public class CallbackUtils {
 

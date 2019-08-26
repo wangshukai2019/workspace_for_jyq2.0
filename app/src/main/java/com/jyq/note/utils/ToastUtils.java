@@ -10,7 +10,7 @@ import com.jyq.note.App;
 
 public class ToastUtils {
 
-    public void showShort(String text){
+    public static void showShort(String text){
         try {
             Toast.makeText(App.getApp(),text,Toast.LENGTH_SHORT).show();
         }catch (Exception e){
@@ -18,7 +18,7 @@ public class ToastUtils {
         }
     }
 
-    public void showShort(int resId){
+    public static void showShort(int resId){
         try {
             Toast.makeText(App.getApp(), App.getApp().getResources().getString(resId),Toast.LENGTH_SHORT).show();
         }catch (Exception e){
@@ -26,7 +26,7 @@ public class ToastUtils {
         }
     }
 
-    public void showLong(String text){
+    public static void showLong(String text){
         try {
             Toast.makeText(App.getApp(),text,Toast.LENGTH_LONG).show();
         }catch (Exception e){
@@ -34,7 +34,7 @@ public class ToastUtils {
         }
     }
 
-    public void showLong(int resId){
+    public static void showLong(int resId){
         try {
             Toast.makeText(App.getApp(), App.getApp().getResources().getString(resId),Toast.LENGTH_LONG).show();
         }catch (Exception e){

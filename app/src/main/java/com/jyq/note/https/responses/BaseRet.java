@@ -1,4 +1,4 @@
-package com.jyq.note.https.Responses;
+package com.jyq.note.https.responses;
 
 import java.io.Serializable;
 

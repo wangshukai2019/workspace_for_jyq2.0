@@ -21,13 +21,18 @@ public class ConstValue {
     public static String APK_DOWNLOAD = "https://download.jingyeqian.com/android/jingyeqian.apk";
 
     //SharedPreferences Action
+    public static final String isFirstRunning = "isFirstRunning";//是否是第一次安装(int) 0:true 1:false
+    public static final String accessToken = "accessToken";//用户登陆accessToken
+    public static final String userKey = "userKey";//UserSecret
+
     public static final String SyncVersion = "SyncVersion";//便签版本号(String)
     public static final String TimeAxisIndex = "TimeAxisIndex";//时间轴tid下拉标记(long)
     public static final String CompletedIndex = "CompletedIndex";//已完成tid下拉标记(long)
-    public static final String islock = "islock";//锁屏标记(boolean)
-    public static final String isTimeAxisLock = "isTimeAxisLock";//锁屏标记(boolean)
+    public static final String islock = "islock";//锁屏标记(int)0:false 1:true
+    public static final String isTimeAxisLock = "isTimeAxisLock";//锁屏标记(int)0:false 1:true
     public static final String VipType = "VipType";//vip标记(int)
-    public static final String isAppVersionOnServerRedTip = "isAppVersionOnServerRedTip";//服务端有新版本更新，显示更新红点(boolean)
+    public static final String hasNewVersion = "hasNewVersion";//服务端有新版本更新，显示更新红点(int)0:false 1:true
+
 
     //BroadcastReceiver Action
     public static final String ActionModifyTextSize = "ActionModifyTextSize";//修改字体大小广播
@@ -61,7 +66,7 @@ public class ConstValue {
     public static final int BIZTYPE_MEMBER_DIAMOND= 6;//钻石会员充值
 
 
-    public static final String ISFIRSTRUNNING = "isFirstRunning";
+
 
     //自动登录的标记
     public static final String AUTOLOGINFLAG = "autologinflag";

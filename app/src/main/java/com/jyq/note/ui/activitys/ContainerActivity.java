@@ -8,6 +8,7 @@ import android.os.Message;
 import com.jyq.note.R;
 import com.jyq.note.ui.fragments.BaseFragment;
 import com.jyq.note.ui.fragments.GuideFragment;
+import com.jyq.note.ui.fragments.LoginFragment;
 import com.jyq.note.utils.CallbackUtils;
 import com.jyq.note.utils.LogUtils;
 
@@ -34,12 +35,15 @@ public class ContainerActivity extends BaseActivity {
     }
 
     public static final int GuideFragmentTag = 1;//向导
+    public static final int LoginFramgentTag = 2;//登陆
 
 
     private BaseFragment getFragment(int tag) {
         switch (tag) {
             case GuideFragmentTag:
                 return GuideFragment.newInstance(bundle);
+            case LoginFramgentTag:
+                return LoginFragment.newInstance(bundle);
             default:
                 return null;
         }
