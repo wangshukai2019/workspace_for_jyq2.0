@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!--//换肤颜色-->
+    <!--最浅色-->
+    <color name="colorLighter">#e8f8fc</color>
+    <!--深色-->
+    <color name="colorDeep">#4ccae5</color>
+    <!--最深色-->
+    <color name="colorDeeper">#1fbddf</color>
+
+    <!-- 透明色 -->
+    <color name="transparent">#00000000</color>
+    <!-- 白色 -->
+    <color name="white">#ffffff</color>
+    <!-- 黑色 -->
+    <color name="black">#000000</color>
+</resources>
